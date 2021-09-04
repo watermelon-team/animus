@@ -1,0 +1,182 @@
+@font-face { font-family: Gilroy; font-weight: 200; src: url('Gilroy/Gilroy-Light.ttf'); }
+@font-face { font-family: Gilroy; font-weight: bold; src: url('Gilroy/Gilroy-Bold.ttf');}
+@font-face { font-family: Gilroy; font-weight: 400; src: url('Gilroy/Gilroy-Regular.ttf');}
+
+
+body {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 400;
+  padding: 0px;
+  margin: 0px;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+:root {
+  --blu: #112D52;
+  --azzurro: #5488BA;
+  --azzurrino: #C2D2E1;
+  --gray: #9E9E9E;
+}
+
+/* background */
+.bg-blu {
+  background-color: var(--blu);
+}
+
+.bg-azzurro {
+  background-color: var(--azzurro);
+}
+
+.bg-azzurrino {
+  background-color: var(--azzurrino);
+}
+
+.bg-gray {
+  background-color: var(--gray);
+}
+
+/* text */
+.text-blu {
+  color: var(--blu);
+}
+
+.text-azzurro {
+  color: var(--azzurro);
+}
+
+
+.text-azzurrino {
+  color: var(--azzurrino);
+}
+
+
+.text-gray {
+  color: var(--gray);
+}
+
+
+.text-1 {
+  font-size: 3.5vh !important;
+}
+
+.text-2 {
+  font-size: 3vh !important;
+}
+
+.text-3 {
+  font-size: 2.5vh !important;
+}
+
+.text-4 {
+  font-size: 2vh !important;
+}
+
+.text-5 {
+  font-size: 2.25vh !important;
+}
+
+.text-6 {
+  font-size: 1.75vh !important;
+}
+
+
+.button-custom{
+  width: 250px;
+  background-color: var(--azzurro);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.button-custom-secondary{
+  width: 250px;
+  background-color: none;
+  border: 5px solid var(--azzurro);
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.sfondo{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('assets/background2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index:0!important;
+}
+
+.profile-picture{
+  border: 3px solid var(--azzurro);
+}
+
+.linkedin{
+  margin-top: -20px;
+  width:30px!important;
+}
+
+/* ---------------------  DESKTOP  -------------------------------------------- */
+@media only screen and (min-width: 1024px) {
+
+  .text-1 {
+    font-size: 4vh !important;
+  }
+
+  .text-2 {
+    font-size: 3.5vh !important;
+  }
+
+  .text-3 {
+    font-size: 3vh !important;
+  }
+
+  .text-4 {
+    font-size: 2.8vh !important;
+  }
+
+  .text-5 {
+    font-size: 2.25vh !important;
+  }
+
+  .text-6 {
+    font-size: 1.75vh !important;
+  }
+
+.button-custom:hover{
+  background-color: var(--blu);
+}
+
+.button-custom-secondary:hover{
+  background-color: var(--azzurro);
+}
+
+.profile-picture{
+  border: 5px solid var(--azzurro);
+}
+
+.profile-picture:hover{
+  transform:scale(110%);
+  transition: 0.3s;
+}
+
+.linkedin{
+  width: 100px;
+}
+
+.linkedin:hover{
+  transform:scale(120%);
+  transition: 0.5s;
+}
+
+
+
+
+
+
+}
